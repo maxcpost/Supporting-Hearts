@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supporting Hearts | Professional Home Care Services</title>
+    <meta name="description" content="Supporting Hearts provides professional and compassionate home care services, helping you or your loved ones live independently with dignity and comfort.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="media/logo.png" type="image/png">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    
+    <!-- AOS - Animate On Scroll Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link href="styles.css" rel="stylesheet">
+    
+    <!-- Additional styles for responsive images -->
+    <style>
+        .approach-img-container {
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .approach-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            transition: all 0.3s ease;
+        }
+        
+        @media (max-width: 991.98px) {
+            .approach-img-container {
+                height: 250px;
+            }
+        }
+        
+        @media (max-width: 767.98px) {
+            .approach-img-container {
+                height: 220px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Header/Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="media/logo.png" alt="Supporting Hearts Logo" height="40" class="me-2">
+                <span>Supporting Hearts</span>
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#approach">Our Approach</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="join-our-team.html">Join Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <a href="tel:+15856645500" class="btn btn-primary ms-lg-3 mt-3 mt-lg-0 d-flex align-items-center justify-content-center text-white">
+                    <i class="fas fa-phone-alt me-2"></i> Call Us
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content" class="overflow-fix">
+        <!-- Hero Section with Video Background -->
+        <section id="home" class="position-relative vh-100 d-flex align-items-center">
+            <!-- Video Background -->
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; z-index: 0;">
+                <video playsinline autoplay muted loop poster="media/nurse-doctor-senior-care-caregiver-help-assistence-2025-02-01-15-31-48-utc.jpg" style="position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; transform: translateX(-50%) translateY(-50%); object-fit: cover;">
+                    <source src="media/hero.mp4" type="video/mp4">
+                    <!-- Fallback to poster image if video doesn't play -->
+                </video>
+                <!-- Overlay for better readability -->
+                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5);"></div>
+            </div>
+            
+            <!-- Content -->
+            <div class="container" style="position: relative; z-index: 1;">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-9 col-md-10 col-sm-12" data-aos="fade-up" data-aos-delay="100">
+                        <h1 class="display-3 fw-bold text-white mb-4">Trusted Home Care in Monroe County</h1>
+                        <p class="fs-5 text-white mb-5" style="opacity: 0.9;">Supporting Hearts delivers compassionate in-home senior care services that help your loved ones maintain independence, dignity, and quality of life in the comfort of their own homes.</p>
+                        <div class="d-flex flex-column flex-sm-row justify-content-center gap-2 gap-sm-4">
+                            <a href="#contact" class="btn btn-primary btn-lg px-4 py-3">Schedule a Free Consultation</a>
+                            <a href="#services" class="btn btn-outline-light btn-lg px-4 py-3">Explore Our Services</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#services" class="position-absolute bottom-0 start-50 translate-middle-x text-white fs-4 mb-4" style="z-index: 1;">
+                <i class="bi bi-chevron-double-down"></i>
+            </a>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-6 bg-white">
+            <div class="container py-md-5 py-4">
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-lg-8 col-md-10" data-aos="fade-up">
+                        <span class="cta-badge">Professional In-Home Care</span>
+                        <h2 class="section-title text-center mb-4">Personalized Senior Care Services</h2>
+                        <p class="lead text-muted">Our comprehensive care plans are customized to meet your loved one's specific needs, preferences, and routines, providing peace of mind for the entire family.</p>
+                    </div>
+                </div>
+                
+                <div class="row g-4">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body p-4 p-sm-3">
+                                <div class="text-center mb-4">
+                                    <div class="icon-box d-inline-flex align-items-center justify-content-center rounded-circle mb-3" style="width: 80px; height: 80px;">
+                                        <i class="fas fa-hands-helping fs-2"></i>
+                                    </div>
+                                    <h4 class="card-title">Personal Care</h4>
+                                </div>
+                                <p class="card-text text-center">Dignified assistance with daily living activities that promotes independence and enhances quality of life for seniors in Monroe County.</p>
+                                <ul class="list-unstyled mt-3 mb-0">
+                                    <li class="mb-2"><i class="fas fa-check text-primary me-2"></i> Bathing and personal hygiene</li>
+                                    <li class="mb-2"><i class="fas fa-check text-primary me-2"></i> Dressing and grooming</li>
+                                    <li class="mb-2"><i class="fas fa-check text-primary me-2"></i> Medication reminders</li>
+                                    <li><i class="fas fa-check text-primary me-2"></i> Mobility assistance</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body p-4 p-sm-3">
+                                <div class="text-center mb-4">
+                                    <div class="icon-box d-inline-flex align-items-center justify-content-center rounded-circle mb-3" style="width: 80px; height: 80px;">
+                                        <i class="fas fa-heart fs-2"></i>
+                                    </div>
+                                    <h4 class="card-title">Companion Care</h4>
+                                </div>
+                                <p class="card-text text-center">Meaningful companionship that alleviates loneliness, stimulates mental activity, and fosters emotional well-being for seniors living at home.</p>
+                                <ul class="list-unstyled mt-3 mb-0">
+                                    <li class="mb-2"><i class="fas fa-check text-primary me-2"></i> Engaging conversation</li>
+                                    <li class="mb-2"><i class="fas fa-check text-primary me-2"></i> Memory-enhancing activities</li>
+                                    <li class="mb-2"><i class="fas fa-check text-primary me-2"></i> Cognitive stimulation</li>
+                                    <li><i class="fas fa-check text-primary me-2"></i> Emotional support</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body p-4 p-sm-3">
+                                <div class="text-center mb-4">
+                                    <div class="icon-box d-inline-flex align-items-center justify-content-center rounded-circle mb-3" style="width: 80px; height: 80px;">
+                                        <i class="fas fa-home fs-2"></i>
+                                    </div>
+                                    <h4 class="card-title">Household Assistance</h4>
+                                </div>
+                                <p class="card-text text-center">Reliable home support services that maintain a safe, clean, and comfortable living environment for seniors aging in place.</p>
+                                <ul class="list-unstyled mt-3 mb-0">
+                                    <li class="mb-2"><i class="fas fa-check text-primary me-2"></i> Light housekeeping</li>
+                                    <li class="mb-2"><i class="fas fa-check text-primary me-2"></i> Nutritious meal preparation</li>
+                                    <li class="mb-2"><i class="fas fa-check text-primary me-2"></i> Laundry and linens</li>
+                                    <li><i class="fas fa-check text-primary me-2"></i> Grocery shopping</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body p-4 p-sm-3">
+                                <div class="text-center mb-4">
+                                    <div class="icon-box d-inline-flex align-items-center justify-content-center rounded-circle mb-3" style="width: 80px; height: 80px;">
+                                        <i class="fas fa-car fs-2"></i>
+                                    </div>
+                                    <h4 class="card-title">Transportation</h4>
+                                </div>
+                                <p class="card-text text-center">Safe and dependable transportation services that keep seniors connected to their community, healthcare providers, and loved ones.</p>
+                                <ul class="list-unstyled mt-3 mb-0">
+                                    <li class="mb-2"><i class="fas fa-check text-primary me-2"></i> Medical appointments</li>
+                                    <li class="mb-2"><i class="fas fa-check text-primary me-2"></i> Shopping and errands</li>
+                                    <li class="mb-2"><i class="fas fa-check text-primary me-2"></i> Social events</li>
+                                    <li><i class="fas fa-check text-primary me-2"></i> Family gatherings</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center mt-5">
+                    <div class="col-lg-8 text-center" data-aos="fade-up">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-body p-4 service-locations-grid">
+                                <h4 class="mb-3 text-primary-darker">Where We Provide Services</h4>
+                                <p class="mb-4">We provide personalized care services in various settings to accommodate your loved one's needs:</p>
+                                
+                                <!-- Fixed 2x2 grid that won't collapse to single column -->
+                                <div class="services-grid">
+                                    <div class="services-grid-item">
+                                        <div class="d-flex flex-column align-items-center">
+                                            <div class="icon-box d-flex align-items-center justify-content-center rounded-circle mb-2" style="width: 60px; height: 60px;">
+                                                <i class="fas fa-home fs-3"></i>
+                                            </div>
+                                            <h5 class="h6 text-center">Home</h5>
+                                        </div>
+                                    </div>
+                                    <div class="services-grid-item">
+                                        <div class="d-flex flex-column align-items-center">
+                                            <div class="icon-box d-flex align-items-center justify-content-center rounded-circle mb-2" style="width: 60px; height: 60px;">
+                                                <i class="fas fa-building fs-3"></i>
+                                            </div>
+                                            <h5 class="h6 text-center">Assisted Living Facilities</h5>
+                                        </div>
+                                    </div>
+                                    <div class="services-grid-item">
+                                        <div class="d-flex flex-column align-items-center">
+                                            <div class="icon-box d-flex align-items-center justify-content-center rounded-circle mb-2" style="width: 60px; height: 60px;">
+                                                <i class="fas fa-city fs-3"></i>
+                                            </div>
+                                            <h5 class="h6 text-center">Independent Living Communities</h5>
+                                        </div>
+                                    </div>
+                                    <div class="services-grid-item">
+                                        <div class="d-flex flex-column align-items-center">
+                                            <div class="icon-box d-flex align-items-center justify-content-center rounded-circle mb-2" style="width: 60px; height: 60px;">
+                                                <i class="fas fa-hospital fs-3"></i>
+                                            </div>
+                                            <h5 class="h6 text-center">Nursing Homes</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-6" style="background-color: var(--accent);">
+            <div class="container py-md-5 py-4">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                        <div class="position-relative rounded-4 overflow-hidden shadow-lg">
+                            <img src="media/About.jpg" alt="Compassionate senior home care in Monroe County" class="w-100 rounded-4">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center" data-aos="fade-left">
+                        <span class="cta-badge">Our Story</span>
+                        <h2 class="section-title mb-4 text-white">About Supporting Hearts</h2>
+                        <p class="lead mb-4 text-white">We believe every senior in Monroe County deserves to age with dignity, purpose, and the highest quality of life possible in the comfort of their own home.</p>
+                        <div style="border: 4px solid var(--white); padding: 1rem; margin: 0 auto;" class="mb-4">
+                            <p class="text-white"><b>Our Mission:</b> Supporting Hearts delivers exceptional in-home care throughout Monroe County and surrounding areas. Our trusted caregivers are dedicated to enhancing the lives of seniors and adults with disabilities by providing compassionate, personalized care that respects their independence and preserves their dignity.</p>
+                        </div>
+                        <p class="text-white">What truly sets Supporting Hearts apart is our relationship-centered approach. We believe that understanding each client's unique story, preferences, and routines is essential to providing care that feels natural and supportive rather than intrusive.</p>
+                        <div class="row mt-4">
+                            <div class="col-sm-6 mb-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="icon-box d-flex align-items-center justify-content-center rounded-circle flex-shrink-0 me-3" style="width: 45px; height: 45px; background-color: var(--white); color: var(--accent-dark);">
+                                        <i class="fas fa-certificate"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1 text-white">Certified Caregivers</h5>
+                                        <p class="mb-0 small text-white opacity-75">Thoroughly vetted and trained professionals</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="icon-box d-flex align-items-center justify-content-center rounded-circle flex-shrink-0 me-3" style="width: 45px; height: 45px; background-color: var(--white); color: var(--accent-dark);">
+                                        <i class="fas fa-hand-holding-heart"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1 text-white">Compassionate Care</h5>
+                                        <p class="mb-0 small text-white opacity-75">Empathetic and respectful service</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="icon-box d-flex align-items-center justify-content-center rounded-circle flex-shrink-0 me-3" style="width: 45px; height: 45px; background-color: var(--white); color: var(--accent-dark);">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1 text-white">24/7 Availability</h5>
+                                        <p class="mb-0 small text-white opacity-75">Care when you need it most</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="icon-box d-flex align-items-center justify-content-center rounded-circle flex-shrink-0 me-3" style="width: 45px; height: 45px; background-color: var(--white); color: var(--accent-dark);">
+                                        <i class="fas fa-clipboard-check"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1 text-white">Personalized Plans</h5>
+                                        <p class="mb-0 small text-white opacity-75">Customized to individual needs</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Approach Section -->
+        <section id="approach" class="py-6 bg-white">
+            <div class="container py-md-5 py-4">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-8 col-md-10 text-center" data-aos="fade-up">
+                        <span class="cta-badge">The Supporting Hearts Difference</span>
+                        <h2 class="section-title text-center mb-4">Our Approach to Senior Care</h2>
+                        <p class="lead text-muted">We create thoughtfully personalized care plans that reflect each client's unique needs and preferences, fostering independence while providing the right level of assistance.</p>
+                    </div>
+                </div>
+                
+                <div class="row align-items-center g-4 g-md-5">
+                    <div class="col-md-6" data-aos="fade-right">
+                        <div class="card border-0 shadow-sm h-100 approach-card">
+                            <div class="row g-0 flex-column flex-sm-row">
+                                <div class="col-sm-6 col-md-12 col-lg-6">
+                                    <div class="approach-img-container">
+                                        <img src="media/1.jpg" 
+                                             class="approach-img rounded-start-sm rounded-top rounded-sm-start"
+                                             alt="Home care assessment in Monroe County">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-12 col-lg-6">
+                                    <div class="card-body p-4 p-sm-3">
+                                        <h4 class="card-title mb-3 text-primary-darker">Comprehensive Assessment</h4>
+                                        <p class="card-text text-muted">We begin with an in-depth evaluation to understand your loved one's unique needs, health concerns, daily routines, and personal preferences.</p>
+                                        <ul class="list-unstyled mt-3">
+                                            <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Detailed health assessment</li>
+                                            <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Customized care planning</li>
+                                            <li><i class="fas fa-check-circle text-primary me-2"></i> Regular plan updates</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6" data-aos="fade-left">
+                        <div class="card border-0 shadow-sm h-100 approach-card">
+                            <div class="row g-0 flex-column flex-sm-row">
+                                <div class="col-sm-6 col-md-12 col-lg-6 order-sm-2 order-md-1 order-lg-2">
+                                    <div class="approach-img-container">
+                                        <img src="media/2.jpg" 
+                                             class="approach-img rounded-start-sm rounded-top rounded-sm-end"
+                                             alt="Caregiver matching for seniors in Monroe County">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-12 col-lg-6 order-sm-1 order-md-2 order-lg-1">
+                                    <div class="card-body p-4 p-sm-3">
+                                        <h4 class="card-title mb-3 text-primary-darker">Perfect Caregiver Match</h4>
+                                        <p class="card-text text-muted">We thoughtfully pair caregivers and clients based on skills, experience, personality, and shared interests to foster meaningful relationships.</p>
+                                        <ul class="list-unstyled mt-3">
+                                            <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Compatibility-focused matching</li>
+                                            <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Specialized skill assessment</li>
+                                            <li><i class="fas fa-check-circle text-primary me-2"></i> Consistent caregiver assignment</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 mt-4" data-aos="fade-right" data-aos-delay="100">
+                        <div class="card border-0 shadow-sm approach-card">
+                            <div class="row g-0">
+                                <div class="col-lg-6">
+                                    <div class="approach-img-container">
+                                        <img src="media/3.jpg" 
+                                             class="approach-img rounded-start"
+                                             alt="Ongoing home care support in Monroe County">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="card-body p-4">
+                                        <h4 class="card-title mb-3 text-primary-darker">Proactive Oversight</h4>
+                                        <p class="card-text text-muted">Our care management team provides continuous supervision and regular quality checks to ensure exceptional service delivery.</p>
+                                        <ul class="list-unstyled mt-3">
+                                            <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Scheduled care reviews</li>
+                                            <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Detailed care documentation</li>
+                                            <li><i class="fas fa-check-circle text-primary me-2"></i> Consistent family updates</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 mt-4" data-aos="fade-left" data-aos-delay="100">
+                        <div class="card border-0 shadow-sm approach-card">
+                            <div class="row g-0">
+                                <div class="col-lg-6 order-lg-2">
+                                    <div class="approach-img-container">
+                                        <img src="media/4.jpg" 
+                                             class="approach-img rounded-end"
+                                             alt="Flexible senior care options in Monroe County">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 order-lg-1">
+                                    <div class="card-body p-4">
+                                        <h4 class="card-title mb-3 text-primary-darker">Adaptable Care Solutions</h4>
+                                        <p class="card-text text-muted">We offer flexible scheduling options from a few hours weekly to round-the-clock support, adjusting as your loved one's needs evolve.</p>
+                                        <ul class="list-unstyled mt-3">
+                                            <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Hourly care visits</li>
+                                            <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i> Overnight supervision</li>
+                                            <li><i class="fas fa-check-circle text-primary me-2"></i> 24/7 live-in assistance</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-6 bg-white">
+            <div class="container py-md-5 py-4">
+                <div class="row justify-content-center text-center mb-4 mb-md-5">
+                    <div class="col-lg-8 col-md-10" data-aos="fade-up">
+                        <span class="cta-badge">Start Your Care Journey</span>
+                        <h2 class="section-title text-center mb-4">Contact Supporting Hearts</h2>
+                        <p class="lead text-muted">Ready to discover how we can help your loved one live more comfortably and safely at home? Reach out today for a complimentary care consultation.</p>
+                    </div>
+                </div>
+                
+                <div class="row g-4">
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-4 p-sm-3">
+                                <h4 class="mb-4 text-primary-darker">Get In Touch</h4>
+                                <form id="contactForm" class="needs-validation" novalidate>
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="form-floating mb-3">
+                                                <input type="text" class="form-control" id="nameInput" name="name" placeholder="Your Name" required>
+                                                <label for="nameInput">Your Name</label>
+                                                <div class="invalid-feedback">Please provide your name.</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-floating mb-3">
+                                                <input type="email" class="form-control" id="emailInput" name="email" placeholder="Email Address" required>
+                                                <label for="emailInput">Email Address</label>
+                                                <div class="invalid-feedback">Please provide a valid email.</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-floating mb-3">
+                                                <input type="tel" class="form-control" id="phoneInput" name="phone" placeholder="Phone Number" required>
+                                                <label for="phoneInput">Phone Number</label>
+                                                <div class="invalid-feedback">Please provide your phone number.</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-floating mb-3">
+                                                <select class="form-select" id="serviceSelect" name="service" required>
+                                                    <option value="" selected disabled>Select Service</option>
+                                                    <option value="Personal Care">Personal Care</option>
+                                                    <option value="Companion Care">Companion Care</option>
+                                                    <option value="Household Assistance">Household Assistance</option>
+                                                    <option value="Medication Reminders">Medication Reminders</option>
+                                                    <option value="Transportation">Transportation</option>
+                                                    <option value="Other">Other</option>
+                                                </select>
+                                                <label for="serviceSelect">Service Needed</label>
+                                                <div class="invalid-feedback">Please select a service.</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-floating mb-3">
+                                                <textarea class="form-control" id="messageInput" name="message" style="height: 120px" placeholder="Your Message" required></textarea>
+                                                <label for="messageInput">Your Message</label>
+                                                <div class="invalid-feedback">Please enter a message.</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="d-grid">
+                                                <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                                            </div>
+                                            <div id="formSuccess" class="mt-3 alert alert-success d-none">
+                                                Thank you for your message! We'll get back to you soon.
+                                            </div>
+                                            <div id="formError" class="mt-3 alert alert-danger d-none">
+                                                Sorry, there was a problem submitting your form. Please try again.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6" data-aos="fade-left">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-4">
+                                <div class="d-flex align-items-center mb-4">
+                                    <img src="media/logo.png" alt="Supporting Hearts Logo" height="40" class="me-3">
+                                    <h4 class="mb-0 text-primary-darker">Contact Information</h4>
+                                </div>
+                                <div class="mb-4">
+                                    <p class="text-muted">Supporting Hearts is your trusted provider of compassionate senior care services in Monroe County, NY. Our professional caregivers deliver personalized home care that helps seniors live safely and comfortably where they belong.</p>
+                                </div>
+                                
+                                <div class="d-flex mb-4">
+                                    <div class="icon-box d-flex align-items-center justify-content-center rounded-circle flex-shrink-0 me-3" style="width: 35px; height: 35px; background-color: var(--accent); color: var(--white);">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1 text-primary-darker">Service Area</h5>
+                                        <p class="text-muted mb-0">Monroe County and surrounding communities in Western New York</p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex mb-4">
+                                    <div class="icon-box d-flex align-items-center justify-content-center rounded-circle flex-shrink-0 me-3" style="width: 35px; height: 35px; background-color: var(--accent); color: var(--white);">
+                                        <i class="fas fa-user-tie"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1 text-primary-darker">Owner Operator</h5>
+                                        <p class="text-muted mb-0">Anthony LaPorte</p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex mb-4">
+                                    <div class="icon-box d-flex align-items-center justify-content-center rounded-circle flex-shrink-0 me-3" style="width: 35px; height: 35px; background-color: var(--accent); color: var(--white);">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1 text-primary-darker">Phone</h5>
+                                        <p class="text-muted mb-0"><a href="tel:+15856645500" class="text-decoration-none text-muted">(585) 664-5500</a></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex mb-4">
+                                    <div class="icon-box d-flex align-items-center justify-content-center rounded-circle flex-shrink-0 me-3" style="width: 35px; height: 35px; background-color: var(--accent); color: var(--white);">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div style="min-width: 0; overflow-wrap: break-word; word-wrap: break-word;">
+                                        <h5 class="mb-1 text-primary-darker">Email</h5>
+                                        <p class="text-muted mb-0"><a href="mailto:HealthierHeartsToday@gmail.com" class="text-decoration-none text-muted">HealthierHeartsToday@gmail.com</a></p>
+                                    </div>
+                                </div>
+                                
+                                <div class="d-flex mb-4">
+                                    <div class="icon-box d-flex align-items-center justify-content-center rounded-circle flex-shrink-0 me-3" style="width: 35px; height: 35px; background-color: var(--accent); color: var(--white);">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-1 text-primary-darker">Hours</h5>
+                                        <p class="text-muted mb-0">Senior care services available 24/7, including holidays</p>
+                                        <p class="text-muted mb-0">Office: Monday-Friday, 9AM-5PM</p>
+                                    </div>
+                                </div>
+                                
+                                <!-- Removing social links -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-5" style="background-color: var(--accent);">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="media/footer logo.png" alt="Supporting Hearts Footer Logo" height="50" class="me-3">
+                        <h4 class="mb-0 text-white">Supporting Hearts</h4>
+                    </div>
+                    <p class="text-white mb-4">Providing exceptional in-home care services throughout Monroe County and surrounding areas, allowing your loved ones to maintain independence and dignity.</p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-6">
+                    <h5 class="mb-3 text-white">Quick Links</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="#home" class="text-white text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="#services" class="text-white text-decoration-none">Services</a></li>
+                        <li class="mb-2"><a href="#about" class="text-white text-decoration-none">About</a></li>
+                        <li class="mb-2"><a href="#approach" class="text-white text-decoration-none">Our Approach</a></li>
+                        <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6">
+                    <h5 class="mb-3 text-white">Services</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Personal Care</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Companion Care</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Household Assistance</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Medication Reminders</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Transportation</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="mb-3 text-white">Contact Info</h5>
+                    <ul class="list-unstyled text-white mb-0">
+                        <li class="mb-2 d-flex align-items-center">
+                            <i class="fas fa-map-marker-alt me-3" style="width: 14px; text-align: center;"></i>
+                            <span>Monroe County & surrounding areas</span>
+                        </li>
+                        <li class="mb-2 d-flex align-items-center">
+                            <i class="fas fa-phone-alt me-3" style="width: 14px; text-align: center;"></i>
+                            <span>(585) 664-5500</span>
+                        </li>
+                        <li class="mb-2 d-flex align-items-center">
+                            <i class="fas fa-envelope me-3" style="width: 14px; text-align: center;"></i>
+                            <span>HealthierHeartsToday@gmail.com</span>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <i class="fas fa-clock me-3" style="width: 14px; text-align: center;"></i>
+                            <span>24/7 Care Available</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 opacity-25" style="background-color: var(--white); color: var(--white);">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0 text-white">&copy; 2025 Supporting Hearts. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0 text-white">
+                        <a href="#" class="text-white text-decoration-none">Privacy Policy</a> | 
+                        <a href="#" class="text-white text-decoration-none">Terms of Service</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <!-- Removed back to top button per client request -->
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Object Fit Images Polyfill -->
+    <script src="https://cdn.jsdelivr.net/npm/object-fit-images@3.2.4/dist/ofi.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+    
+    <!-- Google Sheets Form Submission -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Form validation and submission handler
+            const form = document.getElementById('contactForm');
+            const successMessage = document.getElementById('formSuccess');
+            const errorMessage = document.getElementById('formError');
+            
+            if (form) {
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Check form validity
+                    if (!form.checkValidity()) {
+                        e.stopPropagation();
+                        form.classList.add('was-validated');
+                        return;
+                    }
+                    
+                    // Collect form data
+                    const formData = new FormData(form);
+                    const formDataObj = {};
+                    formData.forEach((value, key) => {
+                        formDataObj[key] = value;
+                    });
+                    
+                    // Add timestamp
+                    formDataObj.timestamp = new Date().toISOString();
+                    
+                    // Show loading state
+                    const submitBtn = form.querySelector('button[type="submit"]');
+                    const originalBtnText = submitBtn.innerHTML;
+                    submitBtn.disabled = true;
+                    submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Sending...';
+                    
+                    // URL to Google Apps Script
+                    const scriptURL = 'https://script.google.com/macros/s/AKfycby5EpfNsjXklb_Q0hQKo0i1qoGJNGc-c-sPHcgS5af-h_liPXqdSJ_Vakzo0rdyNz6H/exec';
+                    
+                    // Email submission as fallback (direct email)
+                    function fallbackToEmail() {
+                        const subject = "New Contact Form Submission";
+                        const body = `
+Name: ${formDataObj.name}
+Email: ${formDataObj.email}
+Phone: ${formDataObj.phone}
+Service: ${formDataObj.service}
+Message: ${formDataObj.message}
+Timestamp: ${formDataObj.timestamp}
+                        `;
+                        
+                        const mailtoLink = `mailto:healthierheartstoday@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+                        
+                        // Show error with fallback option
+                        errorMessage.innerHTML = `
+                            There was a problem submitting your form. Please try again or 
+                            <a href="${mailtoLink}" class="alert-link">click here to send via email</a>.
+                        `;
+                        errorMessage.classList.remove('d-none');
+                        successMessage.classList.add('d-none');
+                    }
+                    
+                    // Create a hidden iframe to handle the form submission without CORS issues
+                    const iframe = document.createElement('iframe');
+                    iframe.name = 'hidden_iframe';
+                    iframe.style.display = 'none';
+                    document.body.appendChild(iframe);
+                    
+                    // Create a form that will post to the Google Apps Script
+                    const hiddenForm = document.createElement('form');
+                    hiddenForm.method = 'POST';
+                    hiddenForm.action = scriptURL;
+                    hiddenForm.target = 'hidden_iframe';
+                    
+                    // Add each field to the form
+                    Object.entries(formDataObj).forEach(([key, value]) => {
+                        const input = document.createElement('input');
+                        input.type = 'hidden';
+                        input.name = key;
+                        input.value = value;
+                        hiddenForm.appendChild(input);
+                    });
+                    
+                    document.body.appendChild(hiddenForm);
+                    
+                    // Track the iframe load event to determine success/failure
+                    let timeoutId;
+                    
+                    // Set a timeout for slow responses
+                    timeoutId = setTimeout(() => {
+                        // If it takes too long, assume there was an issue
+                        iframe.onload = null; // Remove the handler
+                        fallbackToEmail();
+                        cleanup();
+                    }, 10000); // 10 second timeout
+                    
+                    // Handle the response
+                    iframe.onload = function() {
+                        clearTimeout(timeoutId);
+                        
+                        // Assume success when iframe loads without timeout
+                        // Show success message
+                        form.reset();
+                        form.classList.remove('was-validated');
+                        successMessage.classList.remove('d-none');
+                        errorMessage.classList.add('d-none');
+                        
+                        // Hide success message after 5 seconds
+                        setTimeout(() => {
+                            successMessage.classList.add('d-none');
+                        }, 5000);
+                        
+                        cleanup();
+                    };
+                    
+                    // Cleanup function to remove temporary elements
+                    function cleanup() {
+                        // Reset button state
+                        submitBtn.disabled = false;
+                        submitBtn.innerHTML = originalBtnText;
+                        
+                        // Remove temporary elements
+                        setTimeout(() => {
+                            try {
+                                document.body.removeChild(hiddenForm);
+                                document.body.removeChild(iframe);
+                            } catch (e) {
+                                console.log('Cleanup error:', e);
+                            }
+                        }, 500);
+                    }
+                    
+                    // Submit the form
+                    try {
+                        hiddenForm.submit();
+                    } catch (e) {
+                        console.error('Submission error:', e);
+                        fallbackToEmail();
+                        cleanup();
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html> 
